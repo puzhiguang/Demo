@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E8D60B620B41382008F6DD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D60B520B41382008F6DD2 /* AppDelegate.m */; };
+		2E8D60B920B41382008F6DD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D60B820B41382008F6DD2 /* ViewController.m */; };
+		2E8D60BC20B41382008F6DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D60BA20B41382008F6DD2 /* Main.storyboard */; };
+		2E8D60BE20B41382008F6DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D60BD20B41382008F6DD2 /* Assets.xcassets */; };
+		2E8D60C120B41382008F6DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D60BF20B41382008F6DD2 /* LaunchScreen.storyboard */; };
+		2E8D60C420B41382008F6DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D60C320B41382008F6DD2 /* main.m */; };
+		2E8D60D720B43F38008F6DD2 /* TTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D60D520B43F38008F6DD2 /* TTFeedbackViewController.m */; };
+		2E8D60D820B43F38008F6DD2 /* TTFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D60D620B43F38008F6DD2 /* TTFeedbackViewController.xib */; };
+		D31A5E14798B63AE2A48386A /* Pods_tantanTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E548C4E9890401024F0D6D5 /* Pods_tantanTestDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20B967E21FA4D0B73FC1EED8 /* Pods-tantanTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tantanTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tantanTestDemo/Pods-tantanTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2C2A41345C5A25D00AB50449 /* Pods-tantanTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tantanTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-tantanTestDemo/Pods-tantanTestDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2E8D60B120B41382008F6DD2 /* tantanTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tantanTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8D60B420B41382008F6DD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E8D60B520B41382008F6DD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E8D60B720B41382008F6DD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E8D60B820B41382008F6DD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E8D60BB20B41382008F6DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E8D60BD20B41382008F6DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E8D60C020B41382008F6DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E8D60C220B41382008F6DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8D60C320B41382008F6DD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E8D60D420B43F38008F6DD2 /* TTFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFeedbackViewController.h; sourceTree = "<group>"; };
+		2E8D60D520B43F38008F6DD2 /* TTFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFeedbackViewController.m; sourceTree = "<group>"; };
+		2E8D60D620B43F38008F6DD2 /* TTFeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTFeedbackViewController.xib; sourceTree = "<group>"; };
+		9E548C4E9890401024F0D6D5 /* Pods_tantanTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tantanTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E8D60AE20B41382008F6DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31A5E14798B63AE2A48386A /* Pods_tantanTestDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E8D60A820B41382008F6DD2 = {
+			isa = PBXGroup;
+			children = (
+				2E8D60B320B41382008F6DD2 /* tantanTestDemo */,
+				2E8D60B220B41382008F6DD2 /* Products */,
+				31CAF56D28FDE576A7B7E7C1 /* Pods */,
+				6CB572F74DBB41E714F721EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E8D60B220B41382008F6DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D60B120B41382008F6DD2 /* tantanTestDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E8D60B320B41382008F6DD2 /* tantanTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D60B420B41382008F6DD2 /* AppDelegate.h */,
+				2E8D60B520B41382008F6DD2 /* AppDelegate.m */,
+				2E8D60B720B41382008F6DD2 /* ViewController.h */,
+				2E8D60B820B41382008F6DD2 /* ViewController.m */,
+				2E8D60BA20B41382008F6DD2 /* Main.storyboard */,
+				2E8D60BD20B41382008F6DD2 /* Assets.xcassets */,
+				2E8D60BF20B41382008F6DD2 /* LaunchScreen.storyboard */,
+				2E8D60C220B41382008F6DD2 /* Info.plist */,
+				2E8D60C320B41382008F6DD2 /* main.m */,
+				2E8D60D420B43F38008F6DD2 /* TTFeedbackViewController.h */,
+				2E8D60D520B43F38008F6DD2 /* TTFeedbackViewController.m */,
+				2E8D60D620B43F38008F6DD2 /* TTFeedbackViewController.xib */,
+			);
+			path = tantanTestDemo;
+			sourceTree = "<group>";
+		};
+		31CAF56D28FDE576A7B7E7C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20B967E21FA4D0B73FC1EED8 /* Pods-tantanTestDemo.debug.xcconfig */,
+				2C2A41345C5A25D00AB50449 /* Pods-tantanTestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CB572F74DBB41E714F721EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E548C4E9890401024F0D6D5 /* Pods_tantanTestDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E8D60B020B41382008F6DD2 /* tantanTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E8D60C720B41382008F6DD2 /* Build configuration list for PBXNativeTarget "tantanTestDemo" */;
+			buildPhases = (
+				A872A03D057F4C31CC5BF4AA /* [CP] Check Pods Manifest.lock */,
+				2E8D60AD20B41382008F6DD2 /* Sources */,
+				2E8D60AE20B41382008F6DD2 /* Frameworks */,
+				2E8D60AF20B41382008F6DD2 /* Resources */,
+				3E04F085D5859D18E1F87CC2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tantanTestDemo;
+			productName = tantanTestDemo;
+			productReference = 2E8D60B120B41382008F6DD2 /* tantanTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E8D60A920B41382008F6DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = puzhiguang;
+				TargetAttributes = {
+					2E8D60B020B41382008F6DD2 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E8D60AC20B41382008F6DD2 /* Build configuration list for PBXProject "tantanTestDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E8D60A820B41382008F6DD2;
+			productRefGroup = 2E8D60B220B41382008F6DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E8D60B020B41382008F6DD2 /* tantanTestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E8D60AF20B41382008F6DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8D60C120B41382008F6DD2 /* LaunchScreen.storyboard in Resources */,
+				2E8D60D820B43F38008F6DD2 /* TTFeedbackViewController.xib in Resources */,
+				2E8D60BE20B41382008F6DD2 /* Assets.xcassets in Resources */,
+				2E8D60BC20B41382008F6DD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E04F085D5859D18E1F87CC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tantanTestDemo/Pods-tantanTestDemo-frameworks.sh",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-13/iOS/RevealServer.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tantanTestDemo/Pods-tantanTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A872A03D057F4C31CC5BF4AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tantanTestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E8D60AD20B41382008F6DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8D60B920B41382008F6DD2 /* ViewController.m in Sources */,
+				2E8D60D720B43F38008F6DD2 /* TTFeedbackViewController.m in Sources */,
+				2E8D60C420B41382008F6DD2 /* main.m in Sources */,
+				2E8D60B620B41382008F6DD2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E8D60BA20B41382008F6DD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8D60BB20B41382008F6DD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E8D60BF20B41382008F6DD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E8D60C020B41382008F6DD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E8D60C520B41382008F6DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E8D60C620B41382008F6DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E8D60C820B41382008F6DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B967E21FA4D0B73FC1EED8 /* Pods-tantanTestDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tantanTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.tantanTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$PODS_ROOT/**";
+			};
+			name = Debug;
+		};
+		2E8D60C920B41382008F6DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2A41345C5A25D00AB50449 /* Pods-tantanTestDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tantanTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.tantanTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$PODS_ROOT/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E8D60AC20B41382008F6DD2 /* Build configuration list for PBXProject "tantanTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8D60C520B41382008F6DD2 /* Debug */,
+				2E8D60C620B41382008F6DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E8D60C720B41382008F6DD2 /* Build configuration list for PBXNativeTarget "tantanTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E8D60C820B41382008F6DD2 /* Debug */,
+				2E8D60C920B41382008F6DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E8D60A920B41382008F6DD2 /* Project object */;
+}
