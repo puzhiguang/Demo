@@ -15,6 +15,10 @@
 		2E8D60C420B41382008F6DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D60C320B41382008F6DD2 /* main.m */; };
 		2E8D60D720B43F38008F6DD2 /* TTFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D60D520B43F38008F6DD2 /* TTFeedbackViewController.m */; };
 		2E8D60D820B43F38008F6DD2 /* TTFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D60D620B43F38008F6DD2 /* TTFeedbackViewController.xib */; };
+		2E8D60DF20B446E5008F6DD2 /* TTCustomUILabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D60DD20B446E5008F6DD2 /* TTCustomUILabelViewController.m */; };
+		2E8D60E020B446E5008F6DD2 /* TTCustomUILabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8D60DE20B446E5008F6DD2 /* TTCustomUILabelViewController.xib */; };
+		2E8D60EA20B44B1A008F6DD2 /* AlertBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D60E620B44B1A008F6DD2 /* AlertBox.m */; };
+		2E8D60EB20B44B1A008F6DD2 /* Meilishuo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8D60E920B44B1A008F6DD2 /* Meilishuo.m */; };
 		D31A5E14798B63AE2A48386A /* Pods_tantanTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E548C4E9890401024F0D6D5 /* Pods_tantanTestDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +38,13 @@
 		2E8D60D420B43F38008F6DD2 /* TTFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTFeedbackViewController.h; sourceTree = "<group>"; };
 		2E8D60D520B43F38008F6DD2 /* TTFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTFeedbackViewController.m; sourceTree = "<group>"; };
 		2E8D60D620B43F38008F6DD2 /* TTFeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTFeedbackViewController.xib; sourceTree = "<group>"; };
+		2E8D60DC20B446E5008F6DD2 /* TTCustomUILabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTCustomUILabelViewController.h; sourceTree = "<group>"; };
+		2E8D60DD20B446E5008F6DD2 /* TTCustomUILabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCustomUILabelViewController.m; sourceTree = "<group>"; };
+		2E8D60DE20B446E5008F6DD2 /* TTCustomUILabelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTCustomUILabelViewController.xib; sourceTree = "<group>"; };
+		2E8D60E620B44B1A008F6DD2 /* AlertBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertBox.m; sourceTree = "<group>"; };
+		2E8D60E720B44B1A008F6DD2 /* Meilishuo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meilishuo.h; sourceTree = "<group>"; };
+		2E8D60E820B44B1A008F6DD2 /* AlertBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertBox.h; sourceTree = "<group>"; };
+		2E8D60E920B44B1A008F6DD2 /* Meilishuo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meilishuo.m; sourceTree = "<group>"; };
 		9E548C4E9890401024F0D6D5 /* Pods_tantanTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tantanTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +81,8 @@
 		2E8D60B320B41382008F6DD2 /* tantanTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2E8D60E520B44B1A008F6DD2 /* AlertBox */,
+				2E8D60E120B44A49008F6DD2 /* tantan */,
 				2E8D60B420B41382008F6DD2 /* AppDelegate.h */,
 				2E8D60B520B41382008F6DD2 /* AppDelegate.m */,
 				2E8D60B720B41382008F6DD2 /* ViewController.h */,
@@ -79,11 +92,32 @@
 				2E8D60BF20B41382008F6DD2 /* LaunchScreen.storyboard */,
 				2E8D60C220B41382008F6DD2 /* Info.plist */,
 				2E8D60C320B41382008F6DD2 /* main.m */,
+			);
+			path = tantanTestDemo;
+			sourceTree = "<group>";
+		};
+		2E8D60E120B44A49008F6DD2 /* tantan */ = {
+			isa = PBXGroup;
+			children = (
 				2E8D60D420B43F38008F6DD2 /* TTFeedbackViewController.h */,
 				2E8D60D520B43F38008F6DD2 /* TTFeedbackViewController.m */,
 				2E8D60D620B43F38008F6DD2 /* TTFeedbackViewController.xib */,
+				2E8D60DC20B446E5008F6DD2 /* TTCustomUILabelViewController.h */,
+				2E8D60DD20B446E5008F6DD2 /* TTCustomUILabelViewController.m */,
+				2E8D60DE20B446E5008F6DD2 /* TTCustomUILabelViewController.xib */,
 			);
-			path = tantanTestDemo;
+			path = tantan;
+			sourceTree = "<group>";
+		};
+		2E8D60E520B44B1A008F6DD2 /* AlertBox */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D60E620B44B1A008F6DD2 /* AlertBox.m */,
+				2E8D60E720B44B1A008F6DD2 /* Meilishuo.h */,
+				2E8D60E820B44B1A008F6DD2 /* AlertBox.h */,
+				2E8D60E920B44B1A008F6DD2 /* Meilishuo.m */,
+			);
+			path = AlertBox;
 			sourceTree = "<group>";
 		};
 		31CAF56D28FDE576A7B7E7C1 /* Pods */ = {
@@ -162,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8D60E020B446E5008F6DD2 /* TTCustomUILabelViewController.xib in Resources */,
 				2E8D60C120B41382008F6DD2 /* LaunchScreen.storyboard in Resources */,
 				2E8D60D820B43F38008F6DD2 /* TTFeedbackViewController.xib in Resources */,
 				2E8D60BE20B41382008F6DD2 /* Assets.xcassets in Resources */,
@@ -219,8 +254,11 @@
 			files = (
 				2E8D60B920B41382008F6DD2 /* ViewController.m in Sources */,
 				2E8D60D720B43F38008F6DD2 /* TTFeedbackViewController.m in Sources */,
+				2E8D60EA20B44B1A008F6DD2 /* AlertBox.m in Sources */,
 				2E8D60C420B41382008F6DD2 /* main.m in Sources */,
+				2E8D60EB20B44B1A008F6DD2 /* Meilishuo.m in Sources */,
 				2E8D60B620B41382008F6DD2 /* AppDelegate.m in Sources */,
+				2E8D60DF20B446E5008F6DD2 /* TTCustomUILabelViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

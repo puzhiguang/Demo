@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TTFeedbackViewController : UIViewController
+@property (nonatomic, strong) NSURL *url ;
+- (instancetype)initWithUrl:(NSURL*)url;
 
 @end
